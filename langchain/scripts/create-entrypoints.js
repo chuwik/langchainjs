@@ -60,6 +60,7 @@ const entrypoints = {
   // vectorstores
   vectorstores: "vectorstores/index",
   "vectorstores/base": "vectorstores/base",
+  "vectorstores/azuresearch": "vectorstores/azuresearch",
   "vectorstores/elasticsearch": "vectorstores/elasticsearch",
   "vectorstores/memory": "vectorstores/memory",
   "vectorstores/chroma": "vectorstores/chroma",
@@ -225,6 +226,7 @@ const requiresOptionalDependency = [
   "llms/replicate",
   "llms/sagemaker_endpoint",
   "prompts/load",
+  "vectorstores/azuresearch",
   "vectorstores/chroma",
   "vectorstores/elasticsearch",
   "vectorstores/hnswlib",

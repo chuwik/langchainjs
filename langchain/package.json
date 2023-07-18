@@ -142,6 +142,9 @@
     "vectorstores/base.cjs",
     "vectorstores/base.js",
     "vectorstores/base.d.ts",
+    "vectorstores/azuresearch.cjs",
+    "vectorstores/azuresearch.js",
+    "vectorstores/azuresearch.d.ts",
     "vectorstores/elasticsearch.cjs",
     "vectorstores/elasticsearch.js",
     "vectorstores/elasticsearch.d.ts",
@@ -590,6 +593,7 @@
     "@aws-sdk/client-s3": "^3.310.0",
     "@aws-sdk/client-sagemaker-runtime": "^3.310.0",
     "@aws-sdk/client-sfn": "^3.310.0",
+    "@azure/search-documents": "^12.0.0-beta.2",
     "@clickhouse/client": "^0.0.14",
     "@elastic/elasticsearch": "^8.4.0",
     "@getmetal/metal-sdk": "*",
@@ -656,6 +660,9 @@
       "optional": true
     },
     "@aws-sdk/client-sfn": {
+      "optional": true
+    },
+    "@azure/search-documents": {
       "optional": true
     },
     "@clickhouse/client": {
@@ -1083,6 +1090,11 @@
       "types": "./vectorstores/base.d.ts",
       "import": "./vectorstores/base.js",
       "require": "./vectorstores/base.cjs"
+    },
+    "./vectorstores/azuresearch": {
+      "types": "./vectorstores/azuresearch.d.ts",
+      "import": "./vectorstores/azuresearch.js",
+      "require": "./vectorstores/azuresearch.cjs"
     },
     "./vectorstores/elasticsearch": {
       "types": "./vectorstores/elasticsearch.d.ts",

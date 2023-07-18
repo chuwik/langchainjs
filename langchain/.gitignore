@@ -130,6 +130,9 @@ vectorstores.d.ts
 vectorstores/base.cjs
 vectorstores/base.js
 vectorstores/base.d.ts
+vectorstores/azuresearch.cjs
+vectorstores/azuresearch.js
+vectorstores/azuresearch.d.ts
 vectorstores/elasticsearch.cjs
 vectorstores/elasticsearch.js
 vectorstores/elasticsearch.d.ts
